@@ -4,6 +4,17 @@ import java.util.*;
  *
  * @author bruceli
  */
+// gameplay has attackers who choose the question out
+// of 4 possible randomily selected questions
+// and the defender will answer them.
+// if defender gets it wrong attacker gets point
+// if defender gets it right than role swap
+// only attackers can earn points
+// first to 10 wins
+// all questions are 4 option multiple choice.
+// posible scripting language later to add more questions and
+// allow users to create their own questions.
+
 public class QuizGame {
     public static void main(String args[]) {
         mainMenu();
@@ -33,6 +44,12 @@ public class QuizGame {
             // todo
         }
     }
+	// different ai levels will have different 
+	// chances of getting questions right
+	// eg hard difficulty:50%, normal difficulty:33%,
+	// easy difficulty:25%. no matter what difficulty, 
+	// however, when the ai is the attacker it will 
+	// randomly choose any of the four available questions.
     public static void singleplayer() {
         // todo
     }
