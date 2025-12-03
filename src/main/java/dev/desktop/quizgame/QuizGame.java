@@ -51,6 +51,14 @@ public class QuizGame {
 	// however, when the ai is the attacker it will 
 	// randomly choose any of the four available questions.
     public static void singleplayer() {
-        // todo
+		int playerScore = 0;
+		int botScore = 0;
+       	Scanner s = new Scanner(System.in);
+		Random random = new Random();
+		int order = random.nextInt(2)
+		System.out.println("Select Difficulty: \n1. Normal\n2.Hard\n3. Easy");
+		System.out.print(">");
+		String difficulty = s.nextLine();
+		
     }
 }
