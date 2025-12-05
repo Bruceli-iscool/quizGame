@@ -60,7 +60,10 @@ public class QuizGame {
         System.out.print(">");
         String difficulty = s.nextLine();
         while (playerScore<= 10 && botScore <= 10){
-			
+            // todo 
         }
+    }
+    public static void readQFile(File file) {
+
     }
 }
