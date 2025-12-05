@@ -59,6 +59,8 @@ public class QuizGame {
 		System.out.println("Select Difficulty: \n1. Normal\n2.Hard\n3. Easy");
 		System.out.print(">");
 		String difficulty = s.nextLine();
-		
+		while () {
+			
+		}
     }
 }
