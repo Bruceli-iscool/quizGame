@@ -63,7 +63,11 @@ public class QuizGame {
             // todo 
         }
     }
-    public static void readQFile(File file) {
+    public static void readFile(File file) {
+        try (Scanner r = new Scanner(file)) {
 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }
